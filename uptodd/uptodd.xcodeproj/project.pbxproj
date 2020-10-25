@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23351DE6254528A000D15AB3 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 23351DE5254528A000D15AB3 /* Sounds */; };
 		453538B82541EE5A007A987C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453538B72541EE5A007A987C /* AppDelegate.swift */; };
 		453538BA2541EE5A007A987C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453538B92541EE5A007A987C /* SceneDelegate.swift */; };
 		453538BC2541EE5A007A987C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453538BB2541EE5A007A987C /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23351DE5254528A000D15AB3 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		453538B42541EE59007A987C /* uptodd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uptodd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		453538B72541EE5A007A987C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		453538B92541EE5A007A987C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				453538C52541EE5B007A987C /* LaunchScreen.storyboard */,
 				453538C82541EE5B007A987C /* Info.plist */,
 				453538C02541EE5A007A987C /* uptodd.xcdatamodeld */,
+				23351DE5254528A000D15AB3 /* Sounds */,
 			);
 			path = uptodd;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			files = (
 				453538C72541EE5B007A987C /* LaunchScreen.storyboard in Resources */,
 				453538C42541EE5B007A987C /* Assets.xcassets in Resources */,
+				23351DE6254528A000D15AB3 /* Sounds in Resources */,
 				453538BF2541EE5A007A987C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

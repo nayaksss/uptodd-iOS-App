@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23351DE6254528A000D15AB3 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 23351DE5254528A000D15AB3 /* Sounds */; };
+		23351DE9254529A200D15AB3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23351DE8254529A200D15AB3 /* Models.swift */; };
+		23351DEC2545303600D15AB3 /* MusicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23351DEB2545303600D15AB3 /* MusicCollectionViewCell.swift */; };
+		23351E08254544A200D15AB3 /* Animals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23351E03254544A000D15AB3 /* Animals.mp3 */; };
+		23351E09254544A200D15AB3 /* Someone Like You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23351E04254544A100D15AB3 /* Someone Like You.mp3 */; };
+		23351E0A254544A200D15AB3 /* Levels.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23351E05254544A100D15AB3 /* Levels.mp3 */; };
+		23351E0B254544A200D15AB3 /* Wake Me Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23351E06254544A200D15AB3 /* Wake Me Up.mp3 */; };
+		23351E0C254544A200D15AB3 /* Hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23351E07254544A200D15AB3 /* Hello.mp3 */; };
 		453538B82541EE5A007A987C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453538B72541EE5A007A987C /* AppDelegate.swift */; };
 		453538BA2541EE5A007A987C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453538B92541EE5A007A987C /* SceneDelegate.swift */; };
 		453538BC2541EE5A007A987C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453538BB2541EE5A007A987C /* ViewController.swift */; };
@@ -18,7 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		23351DE5254528A000D15AB3 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		23351DE8254529A200D15AB3 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		23351DEB2545303600D15AB3 /* MusicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCollectionViewCell.swift; sourceTree = "<group>"; };
+		23351E03254544A000D15AB3 /* Animals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Animals.mp3; sourceTree = "<group>"; };
+		23351E04254544A100D15AB3 /* Someone Like You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Someone Like You.mp3"; sourceTree = "<group>"; };
+		23351E05254544A100D15AB3 /* Levels.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Levels.mp3; sourceTree = "<group>"; };
+		23351E06254544A200D15AB3 /* Wake Me Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wake Me Up.mp3"; sourceTree = "<group>"; };
+		23351E07254544A200D15AB3 /* Hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hello.mp3; sourceTree = "<group>"; };
 		453538B42541EE59007A987C /* uptodd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uptodd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		453538B72541EE5A007A987C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		453538B92541EE5A007A987C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,9 +53,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23351E022545447E00D15AB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				23351E03254544A000D15AB3 /* Animals.mp3 */,
+				23351E07254544A200D15AB3 /* Hello.mp3 */,
+				23351E05254544A100D15AB3 /* Levels.mp3 */,
+				23351E04254544A100D15AB3 /* Someone Like You.mp3 */,
+				23351E06254544A200D15AB3 /* Wake Me Up.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		453538AB2541EE59007A987C = {
 			isa = PBXGroup;
 			children = (
+				23351E022545447E00D15AB3 /* Resources */,
 				453538B62541EE59007A987C /* uptodd */,
 				453538B52541EE59007A987C /* Products */,
 			);
@@ -63,12 +88,13 @@
 				453538B72541EE5A007A987C /* AppDelegate.swift */,
 				453538B92541EE5A007A987C /* SceneDelegate.swift */,
 				453538BB2541EE5A007A987C /* ViewController.swift */,
+				23351DE8254529A200D15AB3 /* Models.swift */,
+				23351DEB2545303600D15AB3 /* MusicCollectionViewCell.swift */,
 				453538BD2541EE5A007A987C /* Main.storyboard */,
 				453538C32541EE5B007A987C /* Assets.xcassets */,
 				453538C52541EE5B007A987C /* LaunchScreen.storyboard */,
 				453538C82541EE5B007A987C /* Info.plist */,
 				453538C02541EE5A007A987C /* uptodd.xcdatamodeld */,
-				23351DE5254528A000D15AB3 /* Sounds */,
 			);
 			path = uptodd;
 			sourceTree = "<group>";
@@ -131,8 +157,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				453538C72541EE5B007A987C /* LaunchScreen.storyboard in Resources */,
+				23351E08254544A200D15AB3 /* Animals.mp3 in Resources */,
+				23351E09254544A200D15AB3 /* Someone Like You.mp3 in Resources */,
+				23351E0B254544A200D15AB3 /* Wake Me Up.mp3 in Resources */,
+				23351E0A254544A200D15AB3 /* Levels.mp3 in Resources */,
 				453538C42541EE5B007A987C /* Assets.xcassets in Resources */,
-				23351DE6254528A000D15AB3 /* Sounds in Resources */,
+				23351E0C254544A200D15AB3 /* Hello.mp3 in Resources */,
 				453538BF2541EE5A007A987C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +178,8 @@
 				453538B82541EE5A007A987C /* AppDelegate.swift in Sources */,
 				453538BA2541EE5A007A987C /* SceneDelegate.swift in Sources */,
 				453538C22541EE5A007A987C /* uptodd.xcdatamodeld in Sources */,
+				23351DEC2545303600D15AB3 /* MusicCollectionViewCell.swift in Sources */,
+				23351DE9254529A200D15AB3 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
